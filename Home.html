@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<style>
+		body{
+			background-image: url("Image/background-frontpage.jpg");
+/* Center and scale the image nicely */
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="section-nav">
+		<div class="topnav">
+			<nav>
+				<a href="Home.html">Home</a>
+				<a href="Pages/CV.html">Resume</a>
+				<a href="Pages/blog.html">Blog</a>
+				<a href="Pages/research.html">Research</a>
+				<a href="Pages/contact.html">Contact</a>
+				<img src="Image/nepal.gif" id="nepal">
+				<a class="contact">9810085500</a>
+	            <a><img src="Image/email.gif" id="email"></a>
+	            <a id="bishal">bishalghimire63@gmail.com</a>
+	            <a><img id="phone" src="Image/phone.png"></a>
+			</nav>
+		</div>
+	</div>
+	<div class="name">
+		<header>
+			<h1 style="margin:0;"> MY NAME IS BISHAL</h1>
+		</header>
+			<p>A PROFESSIONAL<span style="color:#892153; font-weight:bold;"> WEB DESIGNER | </span></p>
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<img src="Image/ilam4.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+							<img src="Image/ilam5.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="Image/ilam.jpg" style="width:100%">
+					</div>
+				</div>
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div >
+		<div id="ght" style="font-family:Fantasy; margin-bottom:0; background-color:gray;font-size:20px">
+			YOU CAN FOLL0W ME ON:
+			<a href="https://www.gmail.com/" target="_blank"><img src="Image/gmail.png" width="31px"id="gmail"height="31px"></a>
+			<a href="https://www.facebook.com" target="_blank"><img src="Image/fb.png" width="31px" id="facebook"height="31px"></a>
+			<a href="https://www.twitter.com" target="_blank"><img src="Image/twi.png" width="31px" id="twitter"height="31px"></a>
+		</div>
+	</div>
+	<div class="lowcolumn">
+    	<div class="card">
+       		<div class="icons" >
+	          <a href="Pages/blog.html"><img id="icon1" src="Image/blog.jpg"></a>
+	          <a href="Pages/contact.html"><img id="icon2" src="Image/contact.png"></a>
+	          <a href="Pages/CV.html"><img id="icon3" src="Image/CV.jpg"></a>
+	      </div>
+    	</div>
+   	</div>
+  	<div class="lastcolumn">
+		<b>&copy;CopyRight Bishal Ghimire. All Right Reserved.</b>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}   
+
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 3000); // Change image every 3 seconds
+		}
+	</script>
+
+</body>
+</html>

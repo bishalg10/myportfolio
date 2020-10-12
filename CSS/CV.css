@@ -1,0 +1,118 @@
+/*CSS of Cv*/
+body{
+background-image: url("../Image/background1.jpg");
+/* Center and scale the image nicely */
+background-repeat: no-repeat;
+background-size: cover;
+}
+.resume{
+text-align:center;
+color:#ff002a;
+font-size:20px;
+}
+.leftside {
+flex: 55%;
+
+}
+.rightside{
+flex: 45%;
+
+}
+.p_card1 {
+background-image: url("../Image/background_expert.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#595151;
+color:white;
+padding: 20px;
+margin-left:5px;
+font-size:20px;
+height:320px;
+width:460px;
+}
+
+.p_card4 {
+background-image: url("../Image/messi.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#595151;
+color:white;
+padding: 20px;
+margin-left:5px;
+height:400px;
+width:660px;
+}
+.roman h2{
+font-size:-20px;
+color:#e7ef00;
+}
+.p_card2 {
+background-color:#595151;
+margin-left:-355px;
+height:600px;
+width:1030px;
+}
+.p_card3{
+background-image: url("../Image/profile1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#595151;
+color:#17ef38;
+padding: 20px;
+margin-left:5px;
+height:470px;
+width:460px;
+font-size:20px;
+}
+.p_card33{
+background-image: url("../Image/background_train.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:10px;
+background-color:#595151;
+color:blue;
+height:240px;
+padding: 10px;
+width:460px;
+}
+.p_card4{
+background-color:#595151;
+color:white;
+padding: 20px;
+margin-left:5px;
+height:500px;
+width:1025px;
+}
+.p_card4 p{
+color:#6cd1ae;
+}
+
+.p_card5{
+background-image: url("../Image/background_study.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#1058cc;
+color:#3774d6;
+padding: 20px;
+margin-top:10px;
+margin-left:5px;
+height:250px;
+width:1025px;
+}
+.p_card6{
+background-image: url("../Image/background_pc.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#595151;
+color:white;
+padding: 20px;
+margin-top:10px;
+margin-left:5px;
+height:270px;
+width:1025px;
+}
+.roman{
+padding:10px;
+display: flex;
+text-align:justify;
+}

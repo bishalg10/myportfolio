@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+<script type="text/javascript" src="../JavaScript/validation.js"></script>
+<style>
+	body{
+	background-image: url("../Image/background2.jpg");
+	/* Center and scale the image nicely */
+	background-repeat: no-repeat;
+	background-size: cover;
+	</style>
+
+</head>
+<body>
+	<div class="section-nav">
+		<div class="topnav">
+			<nav>
+				<a href="../Home.html">Home</a>
+				<a href="CV.html">Resume</a>
+				<a href="blog.html">Blog</a>
+				<a href="research.html">Research</a>
+				<a href="contact.html">Contact</a>
+				<img src="../Image/nepal.gif" id="nepal">
+				<a class="contact">9810085500</a>
+	            <a><img src="../Image/email.gif" id="email"></a>
+	            <a href="http://kharelsabin467@gmail.com" id="bishal">bishalghimire63@gmail.com</a>
+	            <a><img id="phone" src="../Image/phone.png"></a>
+			</nav>
+		</div>
+	</div>
+	<div class="cform">
+
+		
+	</div>
+	<div class="rows">
+ 		 <div class="leftcolu">
+    		<div class="cards">
+     			<img src="../Image/bishal.jpg" alt="image" height:10%; width:100%;>
+    			<h1>Hey! Buddy. What's up?</h1>
+    		</div>
+  		</div>
+  		<div class="rightcolu">
+  			<h1>Contact us</h1>
+  			<h3>Please fill in your information and get more closer to us...</h3>
+    			<div class="cards">
+        			<form name="suggest_us"  
+                          onSubmit="return validateForm123()" method="post" >
+
+						<label for="fname">First Name:</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your  first name..">
+						<label for="lname">Last Name:</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						<label for="gender" id="gender" name="gender">Gender:</label><br>
+						<p><input type="radio" name="gender" value="male" checked> Male
+						<input type="radio" name="gender" value="female"> Female</p>
+						<label for="email">Email:</label>
+						<input type="email" id="leename" name="email" placeholder="Your email address..">
+						<label for="phone">Phone:</label>
+						<input type="phone" id="lname" name="phone" placeholder=" Your phone number..">
+						<label for="lname">Message:</label><br>
+						<textarea name="message" rows="10" cols="50" placeholder="Enter Message"> </textarea><br>
+						<input type="submit" value="Send">
+					 </form>
+				</div>
+    	</div>
+    </div>
+    	<div class="lastcolumn">
+    		<b>&copy;CopyRight Bishal Ghimire. All Right Reserved.</b><br><br>
+    	<div id="ght" style="font-family:Fantasy; margin-bottom:0; font-size:16px">
+         	YOU CAN FOLL0W ME ON:
+	            <a href="https://www.gmail.com/" target="_blank"><img src="../Image/gmail.png" width="31px"id="gmail"height="31px"></a>
+	            <a href="https://www.facebook.com" target="_blank"><img src="../Image/fb.png" width="31px" id="facebook"height="31px"></a>
+	            <a href="https://www.twitter.com" target="_blank"><img src="../Image/twi.png" width="31px" id="twitter"height="31px"></a>
+	     </div>
+    </div>
+</body>
+</html>
